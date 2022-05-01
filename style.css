@@ -1,8 +1,68 @@
-*
+body
 {
     margin: 0;
     box-sizing: border-box;
     padding: 0px;
     background: fixed;
     background-image: url(https://wallpaperaccess.com/full/3433.jpg);
+    background-size: 100%;
+}
+.info{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 600px;
+    width: 900px;
+    background-color: rgba(0, 0, 0, 0.52);
+color: white;
+
+border-radius: 20px;
+text-align: center;
+align-items: center;
+margin: 200px auto;
+z-index: 9999;
+border: solid rgb(255, 255, 255) 3px;
+
+}
+h3
+{
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 217, 255);
+    transition:  all    0.2s;
+}
+a:visited{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:hover
+{
+    
+    text-shadow: 4px 4px 9px rgb(255, 187, 0);
+        color: rgb(255, 255, 255);
+    
+}
+.autorka
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s;
+    
+}
+.autorka:visited
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+.autorka:hover
+{
+  
+    
+    text-shadow: 4px 4px 9px rgb(255, 187, 0);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    
 }
