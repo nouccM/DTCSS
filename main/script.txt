@@ -1,0 +1,78 @@
+/**
+* @name LilyPichu
+* @author Nyria#3863
+* @description A theme based on @Melonturtle_ stream design
+* @invite rtBQX5D3bD
+* @version 1.0
+*changed a litle bit by nouccM
+*/
+@import url("https://nouccm.github.io/main/main.css");
+
+:root {
+
+/* --- User variables --- */
+
+/* Jumping GIF */
+--jumping-gif: url('https://i.imgur.com/dCd49s0.gif');
+
+/* Background (if you want an image replace it by : 
+
+--background-tertiary-alt: url("image-link"); without that => */
+--background-tertiary-alt: url(https://images2.alphacoders.com/105/1053279.png);
+
+/* Border-radius for the whole theme */
+--border-radius: 20px;
+
+}
+
+.theme-dark {
+
+    /* Text */
+    --text-normal: #f8e1e5;
+    --header-primary: #f8e1e5;
+    --interactive-normal: #ffffff;
+    --channels-default: #f8e1e5;
+
+    --text-muted: #e2c1c7;
+    --interactive-muted: #ffffff;
+
+    --header-secondary: #b5b5b5;
+    --interactive-hover: #8ea8da;
+    --interactive-active: #8fcdfb;
+
+    /* Background color */
+    --background-primary: #4b4b4b;
+    --background-secondary: #292929;
+    --background-secondary-alt: #616161;
+    --background-tertiary: #2b2b2b;
+    --background-floating: #252525;
+    --background-accent:#000000;
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: rgba(31, 42, 56, 0.32);
+    --background-modifier-active: rgba(35, 47, 56, 0.32);
+    --background-modifier-selected: rgba(21, 26, 31, 0.32);
+    --toast-background: #36455e !important;
+    --toast-header: #1d2a3b !important;
+    --toast-contents: #293849 !important;
+    --toast-border: #293649 !important;
+
+    /* Scrollbar */
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+
+    /* Other */
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+    .colorBrand-ROmMP1 { color: #4a4a4a;}
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { background-color: var(--background-modifier-hover) !important;}
+
+    /* Buttons */
+    .lookFilled-1Gx00P { background-color: #2b2b2b !important;}
+    .lookFilled-1Gx00P:active, .lookFilled-1Gx00P:hover { background-color: #505050 !important;}
+    .lookOutlined-3sRXeN:not(.colorWhite-rEQuAQ) { color: #282828; border-color: #000000;}
+
+    /* Hover background */
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { color: var(--interactive-normal);}
+
